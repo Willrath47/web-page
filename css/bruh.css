@@ -1,0 +1,92 @@
+body{
+  background-image:url(../assets/img/Meteor\ \(1\).svg);
+  /* background-color: rgba(0, 0, 0, 0.788);  */
+  
+  background-blend-mode:darken;
+  background-size: cover;
+    background-position: center center;
+    background-attachment:fixed;
+
+  
+}
+@media screen and (min-width:771px) {
+  
+}
+@media screen and (max-width:770px) {
+  body {
+    background-image:url(../assets/img/Meteor\ \(3\).svg);
+      background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:scroll;
+
+  }
+
+}
+
+.navbar{
+    position: fixed;
+    
+    width: 100%;
+}
+
+
+.change-my-color {
+    fill: rgb(255, 255, 255);
+  }
+
+
+
+
+ img{
+  cursor:pointer;
+    
+
+}
+.titulo{
+  text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
+
+}
+.wilson{
+  text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
+}
+.email{
+  text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
+
+}
+button:hover{
+    box-shadow: 5px 5px 20px  rgb(24, 89, 187);
+    transition: 0.1s;
+    border:solid rgb(255, 0, 0);
+}
+img:hover{
+    box-shadow: 20px 20px 20px  rgb(24, 89, 187);
+    border:solid rgb(255, 0, 0);
+}
+.social-icon{
+  border:solid rgb(255, 255, 255); 
+}
+.icono{
+  background-color: aqua;
+  color: rgb(79, 143, 193);
+}
+.social-icon:hover{
+  box-shadow: 5px 5px 20px  rgb(24, 89, 187);
+  transition: 0.1s;
+  border:solid rgb(182, 26, 26);
+}
+#navbarcenter{
+  display: flex;
+  justify-content: center;
+}
+
+.collapse{
+  justify-content: center;
+}
+.fixed-top{
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+}
+section{
+  text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
+
+}
