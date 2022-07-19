@@ -51,23 +51,18 @@ document.getElementById("imagen-restaurante").onclick =  function (){
     
 }
 
+document.getElementById("imagen-React").onclick =  function (){
+    location.href = "https://willrath47.github.io/react-counter/";
+    
+}
+
+document.getElementById("boton-React").onclick =  function (){
+    location.href = "https://willrath47.github.io/react-counter/";
+    
+}
 
 
 
 
-
-// https://willrath47.github.io/pagina-restaurante/
-// var count = 0;
-
-// var text="Hernández";
-// function typing(){
-//     if(count<text.length){
-//         document.getElementById("text").innerHTML += text.charAt(count);
-//         i++;
-//         setTimeout(typing,50)
-//     }
-   
-// }
-// typing();
 
 

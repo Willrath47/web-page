@@ -15,7 +15,7 @@ body{
 @media screen and (max-width:770px) {
   body {
     background-image:url(../assets/img/Meteor\ \(3\).svg);
-      background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size:cover;
     background-attachment:scroll;
 
@@ -43,24 +43,28 @@ body{
 
 }
 .titulo{
-  text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
+  text-shadow: 0.2vh 0 0 rgb(0, 0, 0), -0.2vh 0 0 rgb(0, 0, 0), 0 0.2vh 0 rgb(0, 0, 0), 0 -0.2vh 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
 
 }
 .wilson{
-  text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
+  text-shadow: 0.2vh 0 0 rgb(0, 0, 0), -0.2vh 0 0 rgb(0, 0, 0), 0 0.2vh 0 rgb(0, 0, 0), 0 -0.2vh 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
 }
 .email{
-  text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
+  text-shadow: 0.2vh 0 0 rgb(0, 0, 0), -0.2vh 0 0 rgb(0, 0, 0), 0 0.2vh 0 rgb(0, 0, 0), 0 -0.2vh 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
 
 }
 button:hover{
-    box-shadow: 5px 5px 20px  rgb(24, 89, 187);
-    transition: 0.1s;
-    border:solid rgb(255, 0, 0);
+  box-shadow: 5px 5px 20px  white;
+  transition: 0.1s;
+  border:solid white;
 }
+
 img:hover{
-    box-shadow: 20px 20px 20px  rgb(24, 89, 187);
-    border:solid rgb(255, 0, 0);
+  box-shadow: 0px 0.2vh 0.2vh 0.2vh  white;
+  border:solid white; 
+    
+   
+
 }
 .social-icon{
   border:solid rgb(255, 255, 255); 
@@ -70,7 +74,7 @@ img:hover{
   color: rgb(79, 143, 193);
 }
 .social-icon:hover{
-  box-shadow: 5px 5px 20px  rgb(24, 89, 187);
+  box-shadow: 5px 5px 20px  white;
   transition: 0.1s;
   border:solid rgb(182, 26, 26);
 }
@@ -87,6 +91,6 @@ img:hover{
 background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
 }
 section{
-  text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
+  text-shadow: 0.2vh 0 0 rgb(0, 0, 0), -0.2vh 0 0 rgb(0, 0, 0), 0 0.2vh 0 rgb(0, 0, 0), 0 -0.2vh 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
 
 }
