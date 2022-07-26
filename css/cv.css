@@ -1,5 +1,5 @@
 body{
-    background-image:url(../assets/img/Meteor\ \(2\).svg);
+    background-image:url(../assets/img/layered-waves-haikei\ \(1\).svg);
     /* background-color: rgba(0, 0, 0, 0.514);  */
     background-blend-mode:darken;
     background-size: cover;
@@ -13,15 +13,17 @@ body{
   }
   @media screen and (max-width:770px) {
     body {
-      background-image:url(../assets/img/Meteor\ \(4\).svg);
+      background-image:url(../assets/img/layered-waves-haikei\ \(1\).svg);
       background-repeat: no-repeat;
       background-size:cover;
-      background-attachment:scroll;
   
+      
+    background-position: center center;
+    background-attachment:fixed;
+    
     }
   
   }
-  
 
 .navbar{
     position: fixed;
@@ -45,11 +47,10 @@ body{
 }
 .fixed-top{
     background: rgb(238,174,202);
-background: radial-gradient(circle, rgb(143, 205, 231) 0%, rgb(11, 77, 153) 100%);
+background: radial-gradient(circle, rgb(19, 133, 182) 0%, rgb(12, 43, 78) 100%);
 }
 #regresar{
-  background: rgb(238,174,202);
-background: radial-gradient(circle, rgb(143, 205, 231) 0%, rgb(11, 77, 153) 100%);
+background: radial-gradient(circle, rgb(19, 133, 182) 0%, rgb(12, 43, 78) 100%);
 }
 .download-btn:hover{
     color: rgb(0, 0, 0);

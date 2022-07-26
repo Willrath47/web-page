@@ -1,7 +1,6 @@
 body{
-  background-image:url(../assets/img/Meteor\ \(1\).svg);
+  background-image:url(../assets/img/layered-waves-haikei.svg);
   /* background-color: rgba(0, 0, 0, 0.788);  */
-  
   background-blend-mode:darken;
   background-size: cover;
     background-position: center center;
@@ -14,13 +13,18 @@ body{
 }
 @media screen and (max-width:770px) {
   body {
-    background-image:url(../assets/img/Meteor\ \(3\).svg);
+    background-image:url(../assets/img/layered-waves-haikei.svg);
     background-repeat: no-repeat;
     background-size:cover;
-    background-attachment:scroll;
+ 
+    background-position: center center;
+    background-attachment:fixed;
+    
 
   }
-
+  .navbar{
+    z-index: 1000;
+  }
 }
 
 .navbar{
@@ -28,20 +32,46 @@ body{
     
     width: 100%;
 }
+.card-img-top{
+  border: solid black 0.1vh;
+}
 
-
+.row{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .change-my-color {
     fill: rgb(255, 255, 255);
-  }
+}
 
 
+.cardButton{
+  list-style-type: none;
+  border-radius: 5px;
+  border:none;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(10px) saturate(200%);
+  background-color: rgba(255, 255, 255, 0.09);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  color:black;
 
-
- img{
-  cursor:pointer;
-    
 
 }
+.card{
+  backdrop-filter: blur(10px) saturate(200%);
+  -webkit-backdrop-filter: blur(10px) saturate(200%);
+  background-color: rgba(255, 255, 255, 0.52);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+a{
+  text-decoration: none;
+}
+
+
 .titulo{
   text-shadow: 0.2vh 0 0 rgb(0, 0, 0), -0.2vh 0 0 rgb(0, 0, 0), 0 0.2vh 0 rgb(0, 0, 0), 0 -0.2vh 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
 
@@ -59,13 +89,7 @@ button:hover{
   border:solid white;
 }
 
-img:hover{
-  box-shadow: 0px 0.2vh 0.2vh 0.2vh  white;
-  border:solid white; 
-    
-   
 
-}
 .social-icon{
   border:solid rgb(255, 255, 255); 
 }
@@ -89,8 +113,4 @@ img:hover{
 .fixed-top{
   background: rgb(238,174,202);
 background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
-}
-section{
-  text-shadow: 0.2vh 0 0 rgb(0, 0, 0), -0.2vh 0 0 rgb(0, 0, 0), 0 0.2vh 0 rgb(0, 0, 0), 0 -0.2vh 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
-
 }
