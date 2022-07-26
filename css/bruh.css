@@ -25,6 +25,9 @@ body{
   .navbar{
     z-index: 1000;
   }
+  .row{
+    margin-left:0.1vh;
+  }
 }
 
 .navbar{
