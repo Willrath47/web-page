@@ -46,11 +46,10 @@ body{
     
 }
 .fixed-top{
-    background: rgb(238,174,202);
-background: radial-gradient(circle, rgb(19, 133, 182) 0%, rgb(12, 43, 78) 100%);
+background: radial-gradient(circle, rgb(19, 133, 182) 0%, rgb(12, 43, 78) 500%);
 }
 #regresar{
-background: radial-gradient(circle, rgb(19, 133, 182) 0%, rgb(12, 43, 78) 100%);
+background: radial-gradient(circle, rgb(19, 133, 182) 0%, rgb(12, 43, 78) 500%);
 }
 .download-btn:hover{
     color: rgb(0, 0, 0);
