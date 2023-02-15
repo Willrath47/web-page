@@ -51,26 +51,23 @@ body{
 }
 
 
-.cardButton{
-  list-style-type: none;
-  border-radius: 5px;
-  border:none;
-  backdrop-filter: blur(16px) saturate(180%);
-  -webkit-backdrop-filter: blur(10px) saturate(200%);
-  background-color: rgba(255, 255, 255, 0.09);
-  border-radius: 12px;
-  border: 1px solid rgba(22, 20, 20, 0.3);
-  color:black;
+.cardButton {
+ backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
 
 
 }
 .card{
-  backdrop-filter: blur(0px) saturate(100%);
-  -webkit-backdrop-filter: blur(0px) saturate(100%);
-  background-color: rgba(0, 0, 0, 0.76);
-  border-radius: 12px;
-  border: 1px solid white;
+  backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    /* border: 1px solid rgba(209, 213, 219, 0.3); */
 }
+
 a{
   text-decoration: none;
 }
